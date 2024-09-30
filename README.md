@@ -8,7 +8,7 @@ This project is a simple **Live Football World Cup Scoreboard** implemented in *
 - Finish a game
 - Retrieve a summary of all ongoing games, ordered by total score (highest first). For matches with the same score, the most recently started game appears first.
 
-The project is structured as a library and follows **SOLID principles**, **Test-Driven Development (TDD)**, and best practices for clean code.
+The project is structured as a library and follows **SOLID principles**, **Test-Driven Development (TDD)**, and best practices for clean code. The code is started by writing the test cases in tests/Scoreboard.test.ts to define the expected behavior of the scoreboard using TDD approach.
 
 ## Assumptions
 
@@ -54,9 +54,22 @@ The project is structured as a library and follows **SOLID principles**, **Test-
 
 Make sure you have **Node.js** installed on your system along with **npm**.
 
-### Installation
+### TDD
+   - Set up Jest for Testing
+   - Write Tests First
+   - Write the Code to Make the Tests Pass
+   - Run the Tests Again
+   - Refactor (If Needed)
 
-1. Clone the repository.
+### Installation and Testing
+
+1. Clone the repository:
    ```bash
    git clone <repository-url>
    cd football-scoreboard
+2. Install the dependencies:
+   npm insall
+3. to run the project use:
+   npx ts-node src/index.ts
+4. To run the tests, use:
+   npm run test
